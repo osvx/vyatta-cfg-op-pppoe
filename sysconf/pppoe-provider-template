@@ -37,5 +37,8 @@ noauth
 # the "proxyarp" parameter set disables the "defaultroute" option.
 noproxyarp
 
+# Kernel-mode PPPOE plugin
+plugin rp-pppoe.so
+
 # Parameters set or changed by the Vyatta templates go here:
 
